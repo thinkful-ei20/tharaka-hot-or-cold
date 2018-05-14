@@ -10,7 +10,7 @@ export default class Game extends React.Component {
   }
 
   render() {
-    const guessNum = this.state.guesses.map((index, num) => {
+    const guessNum = this.state.guesses.map((num, index) => {
        return  <li key={index}>{num + " "}</li>
     })
   

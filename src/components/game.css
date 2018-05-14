@@ -1,3 +1,9 @@
 .game {
     text-align: center;
+    width: 500px;
+    height: 600px;
+    /* background-color: red; */
+    color: #fff;
+    position: relative;
+    left: 20%;
 }

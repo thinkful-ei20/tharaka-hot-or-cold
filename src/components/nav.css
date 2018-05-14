@@ -1,10 +1,12 @@
 .what {
-    display: inline-block
+    display: inline-block;
+    color: #fff;
 }
 
 .new {
     display: inline-block;
     float: right;
+    color: #fff;
 }
 
 .nav {
