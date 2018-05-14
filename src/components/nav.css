@@ -1,0 +1,14 @@
+.what {
+    display: inline-block
+}
+
+.new {
+    display: inline-block;
+    float: right;
+}
+
+.nav {
+    position: relative;
+    height: 10%;
+    padding: 1em;
+}
