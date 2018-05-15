@@ -16,8 +16,10 @@ export default class Game extends React.Component {
   
    
     return (
+        <div className="guessNum">
+            <ul>{guessNum}</ul>
+        </div>
         
-        <ul>{guessNum}</ul>
     )
     }
 }

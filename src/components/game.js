@@ -7,10 +7,12 @@ import './game.css'
 export default function Game() {
     return (
         <div className="game">
-            <span>You Won. Click new game to play again</span>
+            <div className="resultMessage">
+                <span>You Won. Click new game to play again</span>
+            </div>
+
             <Form />
             <Value count={6}/>
-            Guess
             <Guess />
         </div>
     )

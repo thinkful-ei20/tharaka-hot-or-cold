@@ -4,9 +4,9 @@ import './guessForm.css'
 
 export default function Form (){
     return (
-        <form className="formClass" action="" method="post">
-            <input type="text" placeholder="Enter Your Guess"/>
-            <input type="submit" value=""/>
+        <form className="formClass" action="" method="">
+            <input type="text" placeholder="Enter Your Guess"/><br></br>
+            <input className="guessSubmit" type="submit" value="Guess"/>
         </form>
     )
 }

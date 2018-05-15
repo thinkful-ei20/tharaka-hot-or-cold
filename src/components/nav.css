@@ -1,16 +1,19 @@
 .what {
     display: inline-block;
     color: #fff;
+    text-decoration: none;
 }
 
 .new {
     display: inline-block;
     float: right;
     color: #fff;
+    text-decoration: none;
 }
 
 .nav {
     position: relative;
     height: 10%;
     padding: 1em;
+    font-size: 1.2em;
 }

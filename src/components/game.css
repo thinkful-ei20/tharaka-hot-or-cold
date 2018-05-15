@@ -1,9 +1,21 @@
 .game {
     text-align: center;
-    width: 500px;
-    height: 600px;
-    /* background-color: red; */
+    width: 380px;
+    height: 380px;
+    background-color: #394264;
     color: #fff;
     position: relative;
-    left: 20%;
+    margin: auto;
 }
+
+.resultMessage {
+    background-color: #cc324b;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1em;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 1em 0.4em;
+    margin: 0 auto;
+}
+
